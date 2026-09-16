@@ -1,23 +1,25 @@
 body {
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 .faixa-topo {
     width: 100%;
-    height: 60px;
-    background-color: #1e293b;
+    height: 90px;
+    background-color: #341539;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
     box-sizing: border-box;
+    box-shadow: 0 0 20px purple;
 }
 
 .faixa-topo p {
     margin: 0;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -33,12 +35,52 @@ body {
 
 .botao {
     display: inline-block;
-    background-color: #000381;
+    background-color: #9D00FF;
     color: #ffffff;
     padding: 8px 16px;
-    font-size: 14px;
+    font-size: 29px;
     font-weight: bold;
     text-decoration: none;
     border-radius: 8px;
     cursor: pointer;
 }
+
+.fotop {
+    display: flex;
+    width: 77px;
+    margin-top: -81px;
+    border: 2px solid black;
+    border-radius: 110%;
+}
+
+
+.perfil {
+display: flex;
+font-size: 30px;
+margin-top: -75px;
+margin-left: 100px;
+}
+
+a {
+    transition: 0.3s;
+}
+
+a:hover {
+    transform: scale(0.8)
+}
+
+.faixafinal{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #341539;
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    box-shadow: 0 0 20px purple;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
